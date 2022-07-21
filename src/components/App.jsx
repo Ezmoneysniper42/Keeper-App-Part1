@@ -6,15 +6,11 @@ import Note from "./Note";
 
 function App() {
   return (
-    <html>
-      <head></head>
-
-      <body>
-        <Heading />
-        <Note />
-        <Footer />
-      </body>
-    </html>
+    <div>
+      <Heading />
+      <Note />
+      <Footer />
+    </div>
   );
 }
 
